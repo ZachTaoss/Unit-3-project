@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="author" contect = "Zach T">
+        <meta charset = "UTF-8">
+        <meta name= "description" contect = "Pizza Form">
+        <html lang="en"></html>
+        <title>Pizza Form Project</title>
+    </head>
+
+
+    <body>
+        <form action="Data.json" method="POST">
+            <fieldset>
+                <legend>User Infomation</legend>
+                <Ul style="list-style-type: none;">
+                <li><label for="Name">User Name</label>
+                <input type="text" id="Name" name="User.Name"></li>
+                <li><label for="Password">Password</label>
+                <input type="text" id="Password" name="User.Password"></li>
+                </Ul>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset> 
+            <legend>What Drink do you want</legend>
+                <ul style="list-style-type: none;">
+                <li><input type="radio" id="Coke" name="UI.Drink">Coke</li>
+                <li><input type="radio" id="Diet Coke" name="UI.Drink" >Diet Coke</li>
+                <li><input type="radio" id="Sprite" name="UI.Drink" >Sprite</li>
+                <li><input type="radio" id="Water" name="UI.Drink" >Water</li>
+            </ul>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Pizza Preference</legend>
+                <ul style="list-style-type: none;">
+                <li><input type="checkbox" id="plain" name="UI.Pizza">Plain</li>
+                <li><input type="checkbox" id="pepperoni" name="UI.Pizza">Pepperoni</li>
+                <li><input type="checkbox" id="Chicken" name="UI.Pizza">Chicken</li>
+                <li><input type="checkbox" id="Sausage" name="UI.Pizza">Sausage</li>
+                </ul>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Special Instructions</legend>
+                <ul style="list-style-type: none;">
+                    <li><label for="Special Instructions">Special Instructions</label></li>
+                    <li><textarea id="Special Instructions" name="User.Special Instructions" cols="25" rows="5"></textarea></li>
+                    <li><button type="submit"><img src="pixil-frame-0.png"></button></li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>
